@@ -5,6 +5,7 @@
 //  Created by MacStudent on 2019-03-13.
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
+// https://hackernoon.com/swift-access-ios-camera-and-photo-library-dc1dbe0cdd76
 
 import UIKit
 
@@ -43,7 +44,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
     }
 
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any])
+    {
         
         if let image =
             info[UIImagePickerController.InfoKey.originalImage] as? UIImage {

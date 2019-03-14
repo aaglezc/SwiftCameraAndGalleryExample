@@ -6,6 +6,9 @@
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
 
+
+//https://hackernoon.com/swift-access-ios-camera-and-photo-library-dc1dbe0cdd76
+
 import UIKit
 
 @UIApplicationMain
